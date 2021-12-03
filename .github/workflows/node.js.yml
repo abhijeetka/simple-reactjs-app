@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [12.x]
         language: [javascript]
 
 
@@ -69,11 +69,6 @@ jobs:
           exit-code: '0'
           template: '@/contrib/sarif.tpl'
           output: 'trivy-results.sarif'
-
-      - name: Upload Trivy scan results to GitHub Security tab
-        uses: github/codeql-action/upload-sarif@v1
-        with:
-          sarif_file: 'trivy-results.sarif'
           
   push_to_registry:
     name: Publish Docker Image
