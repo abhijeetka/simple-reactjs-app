@@ -28,6 +28,9 @@ jobs:
 
     - name: Build
       run: npm run build
+
+    - name: test
+      run: npm test
       
   code_scanning:
     name: Code Scanning
