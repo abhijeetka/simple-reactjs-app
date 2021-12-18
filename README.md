@@ -1,4 +1,4 @@
-# Simple React JS Project
+# Simple React JS Project test Branch
 [![CI/CD](https://github.com/abhijeetka/simple-reactjs-app/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/abhijeetka/simple-reactjs-app/actions/workflows/node.js.yml)
 ## What is the use of this Repo
 
